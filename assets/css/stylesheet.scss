@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+div {
+	padding: 0;
+	margin: 0;
+}
+
+.col-1_xs-2 {
+	padding: 0;
+	margin: 0;
+}
+ 
+/* ---- Typography ----*/
+body {
+    font-family: Lato;
+    color: rgb(60,60,65);
+}
+
+h1,h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.main-text {
+  & h1 {
+		margin-bottom: 1rem;
+		font-size: 3rem;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+    }
+  & h2 {
+		margin-bottom: 1rem;
+		font-size: 1.5rem;
+		font-weight: 300;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+}
+
+.header {
+    margin: 5%;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* ---- images ----*/
+.logo-img img {
+    width: 100%;
+}
+
+@media(max-width: 576px) {
+    &.logo-img img {
+        max-width: 50px;
+		} 
+}
+
+.col-2 {
+    padding: 0;
+}
+
+p {
+    font-weight: 400;
+}
+
+.nav {
+    & a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 4rem;
+    padding: 5px;
+    display: inline-block;
+    // border: 1px solid rgb(120, 120, 125);
+    // border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    }
+
+}
+
+.nav a:hover {
+    color: teal;
+    border-color: teal;
+}
+
+@media(max-width: 576px) {
+    .nav {
+        width: 100%;
+        text-align: center;
+    }  
+}
+
+.logo-name {
+    h2 {
+    font-weight: 400;
+    }
+    h3 {
+    font-weight: 300;
+    }
+}
+
+.main-top {
+    margin-bottom: 9rem;
+}
+
+.bg-img {
+    width: 100%;
+}
+
+// .kv_bg-img {
+//     width: 1080px;
+//     margin: 0 0 0 auto;
+// }
+.works_content {
+    & img {
+        width: 100%;
+    }
+
+}
+.about {
+    & p {
+        margin-bottom: 3%;
+    }
+}
+
+footer {
+  padding: 4%;
+  background-color: rgb(240,240,240);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.change-btn-wrapper {
+  width: 500px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.change-btn-wrapper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.prev-btn {
+    cursor: pointer;
+    float: left;
+    display: none;
+}
+
+.next-btn {
+    cursor: pointer;
+    float: right;
+}
+.slide {
+  display: none;
+}
+
+.active {
+  display: block;
+}

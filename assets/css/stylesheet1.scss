@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header,section,footer {
+  padding: 0%;
+  margin: 0;
+}
+
+h1,h2,h3,h4,p {
+  margin: 0;
+  padding: 0;
+}
+
+div[class*="grid"] {
+  margin: 0;
+  padding: 0;
+}
+
+div[class*="col"] {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+// section {
+//   min-height: 100vh;
+// }
+
+/* ---- Typography ----*/
+body {
+  font-family: Lato;
+  color: #3c3c41;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* ---- images ----*/
+.logo-img img {
+  object-fit: cover;
+  width: 60%;
+  margin: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.iwk-img {
+  background-color: #eceaeb;
+  
+  & img {
+  object-fit: cover;
+  width: 60%;
+  margin: 1.5rem;
+  margin-bottom: 2rem;
+  }
+}
+
+.padded {
+  padding: 5% 0;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+
+
+.nav {
+  text-align: center;
+  margin-bottom: 2rem;
+  
+  & div {
+    border: 1px solid #d9d9d9;
+  }
+
+  & a {
+  display: block;
+  color: #333;
+  width: 100%;
+  padding: 12px 0;
+  padding-top: 12px;
+  padding-right: 0px;
+  padding-bottom: 12px;
+  padding-left: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  }
+}
+
+
+
+// .nav a {
+//   text-decoration: none;
+//   color: inherit;
+//   margin-right: 0.5rem;
+//   padding: 1rem;
+//   display: inline-block;
+//   border: 1px solid #78787d;
+//   border-radius: 8px;
+//   font-size: 0.9rem;
+//   font-weight: 400;
+// }
+
+a:hover {
+  color: teal;
+  border-color: teal;
+}
+
+// .container {
+//   display: -ms-grid;
+//   display: grid;
+//   -ms-grid-columns: (minmax(max-content, 1fr))[auto-fit];
+//       grid-template-columns: repeat(auto-fit, minmax(-webkit-max-content, 1fr));
+//       grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
+// }
+
+footer {
+  padding: 4%;
+  background-color: rgb(240,240,240);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+/*# sourceMappingURL=stylesheet.css.map */
