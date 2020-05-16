@@ -15,12 +15,12 @@ h1, h2, h3, h4, p {
   padding: 0;
 }
 
-div, section[class*="grid"] {
+div[class*="grid"] {
   margin: 0;
   padding: 0;
 }
 
-div, section[class*="col"] {
+div[class*="col"] {
   margin: 0;
   padding: 0;
 }
@@ -69,6 +69,11 @@ h3 {
   opacity: 1.0;
 }
 
+.main {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .about-me {
   text-align: center;
 }
@@ -82,8 +87,25 @@ h3 {
   padding: 0;
 }
 
+.about-me-profile {
+  padding: 1.5rem;
+}
+
 .header {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+.motto {
+  margin-top: 2rem;
+}
+
+.works {
+  margin-top: 2rem;
+}
+
+.works img {
+  width: 90vw;
+  margin: 0.5rem auto;
 }
 
 .empty {
@@ -96,8 +118,8 @@ h3 {
 
 .top-text {
   margin-top: 1.5rem;
-  padding: 1.5rem;
-  font-weight: 700;
+  margin-bottom: 3rem;
+  font-weight: 400;
 }
 
 .nav {
@@ -126,6 +148,10 @@ h3 {
 a:hover {
   color: teal;
   border-color: teal;
+}
+
+.contact {
+  margin-top: 2rem;
 }
 
 footer {
