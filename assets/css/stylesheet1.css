@@ -15,12 +15,12 @@ h1, h2, h3, h4, p {
   padding: 0;
 }
 
-div[class*="grid"] {
+div, section[class*="grid"] {
   margin: 0;
   padding: 0;
 }
 
-div[class*="col"] {
+div, section[class*="col"] {
   margin: 0;
   padding: 0;
 }
@@ -56,20 +56,37 @@ h3 {
 .logo-img img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 60%;
+  width: 80%;
   margin: 1.5rem;
   margin-bottom: 2rem;
 }
 
 .iwk-img {
-  background-color: #eceaeb;
+  background-image: url("../../assets/images/pen.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
+  opacity: 1.0;
 }
 
-.iwk-img img {
+.about-me {
+  text-align: center;
+}
+
+.about-me img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 60%;
-  margin: 1.5rem;
+  width: 40vw;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.empty {
   margin-bottom: 2rem;
 }
 
@@ -77,14 +94,14 @@ h3 {
   padding: 5% 0;
 }
 
-p {
-  margin-bottom: 1rem;
-  font-weight: 400;
+.top-text {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  font-weight: 700;
 }
 
 .nav {
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .nav div {
