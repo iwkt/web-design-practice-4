@@ -3,10 +3,12 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header, section, footer {
-  padding: 0%;
+  padding: 0;
   margin: 0;
 }
 
@@ -31,14 +33,14 @@ body {
   color: #3c3c41;
 }
 
-h1 {
+.main-text h1 {
   margin-bottom: 1rem;
   font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
 
-h2 {
+.main-text h2 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 300;
@@ -46,7 +48,7 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
+.section-title h3 {
   font-weight: 400;
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -69,26 +71,9 @@ h3 {
   opacity: 1.0;
 }
 
-.main {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.about-me {
-  text-align: center;
-}
-
-.about-me img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 40vw;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-  padding: 0;
-}
-
-.about-me-profile {
-  padding: 1.5rem;
+.main-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .header {
@@ -99,26 +84,13 @@ h3 {
   margin-top: 2rem;
 }
 
-.works {
-  margin-top: 2rem;
-}
-
-.works img {
-  width: 90vw;
-  margin: 0.5rem auto;
-}
-
 .empty {
   margin-bottom: 2rem;
 }
 
-.padded {
-  padding: 5% 0;
-}
-
 .top-text {
   margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   font-weight: 400;
 }
 
@@ -150,9 +122,31 @@ a:hover {
   border-color: teal;
 }
 
-.contact {
-  margin-top: 2rem;
+.about-me {
+  text-align: center;
+}
+
+.about-me img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 40vw;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
+  padding: 0;
+}
+
+.about-me-profile {
+  padding: 1.5rem;
+}
+
+.sct-works img {
+  width: 90vw;
+  margin: 0.5rem auto;
+}
+
+.section-title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 footer {
@@ -169,5 +163,12 @@ footer a {
   display: inline-block;
   font-size: 0.9rem;
   font-weight: 400;
+}
+
+.footer h3 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=stylesheet1.css.map */
