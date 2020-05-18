@@ -48,7 +48,7 @@ body {
   text-transform: uppercase;
 }
 
-.section-title h3 {
+.section-title {
   font-weight: 400;
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -129,24 +129,60 @@ a:hover {
 .about-me img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 40vw;
+  width: 30vw;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   padding: 0;
+  max-width: 200px;
 }
 
 .about-me-profile {
   padding: 1.5rem;
 }
 
-.sct-works img {
+.about-me-profile p {
+  margin-bottom: 0.7rem;
+}
+
+.section-title-service {
+  font-weight: 100;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.section-works img {
   width: 90vw;
   margin: 0.5rem auto;
 }
 
 .section-title {
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ttl {
+  margin-bottom: 2.5rem;
+}
+
+.ttl h3 {
+  text-align: center;
+  line-height: 1.0;
+  font-size: 22px;
+  color: #505050;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  font-size: 3rem;
 }
 
 footer {
