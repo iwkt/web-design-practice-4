@@ -6,6 +6,10 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 	<link rel="stylesheet" href="./assets/css/stylesheet1.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" title="awe" type="MINE" />
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
 	<title>Document</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
@@ -59,22 +63,27 @@
 				
 					<!-- <section class="grid_xs-12_xs-12"> -->
 					<!-- row one  -->
-					<section class="section-title sct-about">
+					<section class="section-about">
 						<div class="col-3_xs-12" id="about">
-							<h3>ABOUT.</h3>
+							<h3 class="section-title">ABOUT.</h3>
+						</div>
+						<div class="col-12-xs-12"">
+							<div class="icon">
+								<i class="far fa-user-circle"></i>
+							</div>
 						</div>
 						<div class="col-3_xs-12 about-me-profile">
-							<p>新潟県出身。</p>
-							<p>東京にてweb制作をしております。</p>
-							<p style="margin-bottom: 1rem;">国家資格である臨床工学技士を取得し大学病院で勤務。</p>
+							<p>新潟県出身。
+								<br>東京にてweb制作をしております。
+							<br>国家資格である臨床工学技士を取得し大学病院で勤務。</p>
 						</div>
 						<div class="about-me col-3_xs-12 ">
-							<img src="./assets/images/iwk_img3.jpg" alt="about_me">
+							<img src="./assets/images/iwk_img4.jpg" alt="about_me">
 						</div>
 						<div class="col-6_xs-12 about-me-profile">
 							<p>経歴</p>
-							<p>データベースソフトであるFileMakerで臨床業務を効率的に行う様々なソフトを開発。</p>
-							<p>2010年にコンテスト「FileMaker選手権」機器管理ソフトで銅賞。</p>
+							<p>データベースソフトFileMakerで臨床業務を効率的に行う様々なソフトを開発。</p>
+							<p>2010年にコンテスト「FileMaker選手権」で自身が開発した機器管理ソフトで銅賞。</p>
 							<p>2020年1月から病院の仕事をしながらデザインの独学を始める。</p>
 							<p>2020年4月からプロクリエータに入門し本格的にweb学習を開始。</p><br>
 
@@ -85,9 +94,41 @@
 								医療現場で培ったコミュニケーション能力と論理的思考を活かし、持ち前の好奇心と行動力で常に挑戦し続けます。</p>
 						</div>
 					</section>
-					<section class="section-title sct-works">
+
+					<section class="section-service">
+						<div class="col-12-xs-12">
+							<h2 class="section-title-service">SERVIS.</h2>
+						</div>
+						<div class="ttl">
+							<h3>ランディングページ制作</h3>
+							<div class="icon">
+								<i class="fas fa-mobile-alt"></i>
+							</div>
+							<p class="ttl-text">お客様の要望を丁寧にヒヤリングし、ご希望に沿ったランディングページを制作いたします。最近ではmobileからのアクセスが多くを占めることからレスポンシブデザインに対応いたします。また、SEO対策も万全です。</p>
+						</div>
+
+						<div class="ttl">
+							<h3>コーディング</h3>
+							<div class="icon">
+								<i class="fas fa-keyboard"></i>
+							</div>
+							<p class="ttl-text">
+							お客様の要望を丁寧にヒヤリングし、ご希望に沿ったランディングページを制作いたします。最近ではmobileからのアクセスが多くを占めることからレスポンシブデザインに対応いたします。また、SEO対策も万全です。</p>
+						</div>
+
+						<div class="ttl">
+							<h3>WordPress</h3>
+							<div class="icon">
+								<i class="fab fa-wordpress-simple"></i>
+							</div>
+							<p class="ttl-text">
+								お客様の要望を丁寧にヒヤリングし、ご希望に沿ったランディングページを制作いたします。最近ではmobileからのアクセスが多くを占めることからレスポンシブデザインに対応いたします。また、SEO対策も万全です。</p>
+						</div>
+					</section>
+
+					<section class="section-works">
 					<div class="col-12_xs-12" id="works">
-						<h3>WORKS.</h3>
+						<h3 class="section-title">WORKS.</h3>
 					</div>
 					<div class="col-12_xs-12">
 						<!-- jq area -->
@@ -112,9 +153,9 @@
 					
 
 					<!-- row three  -->
-					<section class="section-title sct-contact">
+					<section class="section-contact">
 						<div class="col-12_xs-12" id="contact">
-								<h3>CONACT</h3>
+								<h3 class="section-title" >CONACT</h3>
 						</div>
 						<div class="col-12_xs-12">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -123,6 +164,11 @@
 								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+								<script src="https://sdk.form.run/js/v2/embed.js"></script>
+								<div class="formrun-embed" data-formrun-form="@iwktak-1589773389" data-formrun-redirect="true">
+								</div>
+
 						</div>
 					</section>
 				</main>
