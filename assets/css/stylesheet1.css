@@ -176,6 +176,11 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+p {
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
 .icon {
   text-align: center;
   margin-bottom: 0.5rem;
@@ -185,8 +190,16 @@ a:hover {
   font-size: 3rem;
 }
 
-footer {
-  padding: 4%;
+.arrow {
+  text-align: right;
+}
+
+.arrow-icon {
+  color: #bebebe;
+}
+
+.footer {
+  padding: 0.5rem;
   background-color: #f0f0f0;
   text-align: center;
 }
