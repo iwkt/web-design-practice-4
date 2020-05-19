@@ -190,6 +190,14 @@ p {
   font-size: 3rem;
 }
 
+.twi {
+  text-align: center;
+}
+
+.twi-icon {
+  color: #424242;
+}
+
 .arrow {
   text-align: right;
 }
