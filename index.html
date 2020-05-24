@@ -21,11 +21,20 @@
 				<img src="./assets/images/logo2.png" alt="logo">
 			</div>
 			<div class="nav col-8-bottom_xs-12 grid">
-				<div class="col-3_xs-6 nav-item nav-1"><a href="#about">ABOUT</a></div>
-				<div class="col-3_xs-6 nav-item nav-2"><a href="#works">WORKS</a></div>
-				<div class="col-3_xs-6 nav-item nav-3"><a href="#contact">CONTACT</a></div>
-				<div class="col-3_xs-6 nav-item nav-4"><a href="#blog">BLOG</a></div>
+				<div class="col_xs-6 nav-item nav-1"><a href="#about">ABOUT</a></div>
+				<div class="col_xs-6 nav-item nav-2"><a href="#works">WORKS</a></div>
+				<div class="col_xs-6 nav-item nav-3"><a href="#contact">CONTACT</a></div>
+				<div class="col_xs-6 nav-item nav-4"><a href="#blog">BLOG</a></div>
 			</div>
+		</div>
+
+		<div class="nav-pc">
+			<ul class="nav-list grid-right-bottom">
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#works">WORKS</a></li>
+				<li><a href="#contact">CONTACT</a></a></li>
+				<li><a href="#blog">BLOG</a></li>
+			</ul>
 		</div>
 	</header>
 
@@ -41,9 +50,9 @@
 		</div>
 			
 		<div class="main-container">
-			<div class="main-top grid">
-				<section class="section-about">
-					<div class="col-3_xs-12" id="about">
+			<!-- <div class="main-top"> -->
+				<section class="section-about grid">
+					<div class="col-12_xs-12" id="about">
 						<h3 class="section-title">ABOUT.</h3>
 					</div>
 					<div class="col-12-xs-12"">
@@ -51,33 +60,39 @@
 							<i class="far fa-user-circle"></i>
 						</div>
 					</div>
-					<div class="col-3_xs-12 about-me-profile">
+					<div class="about-me-profile col-12_xs-12">
 						<p>新潟県出身。
 							<br>東京にてweb制作をしております。
 						<br>国家資格である臨床工学技士を取得し大学病院で勤務。</p>
 					</div>
-					<div class="about-me col-3_xs-12 ">
+
+					<div class="about-me col-3_md-12">
 						<img src="./assets/images/iwk_img4.jpg" alt="about_me">
 					</div>
-					<div class="col-6_xs-12 about-me-profile">
-						<p>経歴</p>
+					<div class="about-me-profile col-9_xs-12">
+						<p style="font-weight: 700;">経歴</p>
 						<p>データベースソフトFileMakerで臨床業務を効率的に行う様々なソフトを開発。</p>
 						<p>2010年にコンテスト「FileMaker選手権」で自身が開発した機器管理ソフトで銅賞。</p>
 						<p>2020年1月から病院の仕事をしながらデザインの独学を始める。</p>
 						<p>2020年4月からプロクリエータに入門し本格的にweb学習を開始。</p><br>
+						<!-- <ul>経歴</ul>
+							<li>データベースソフトFileMakerで臨床業務を効率的に行う様々なソフトを開発。</li>
+							<li>2010年にコンテスト「FileMaker選手権」で自身が開発した機器管理ソフトで銅賞。</li>
+							<li>2020年1月から病院の仕事をしながらデザインの独学を始める。</li>
+							<li>2020年4月からプロクリエータに入門し本格的にweb学習を開始。</li> -->
 
-						<p>モットー</p>
+						<p style="font-weight: 700;">モットー</p>
 							元臨床工学技士で、人と関わること、人の役に立つことが大好きです。<br> 
 							現在はグラフィック・Webデザインを中心に行い、クライアントワークを通して日々成長しています。
-					
 							医療現場で培ったコミュニケーション能力と論理的思考を活かし、持ち前の好奇心と行動力で常に挑戦し続けます。</p>
 					</div>
 				</section>
-				<section class="section-service">
-					<div class="col-12-xs-12">
+
+				<section class="section-service grid">
+					<div class="col-12_xs-12">
 						<h2 class="section-title-service">SERVIS.</h2>
 					</div>
-					<div class="ttl">
+					<div class="ttl col-4_xs-12">
 						<h3>ランディングページ制作</h3>
 						<div class="icon">
 							<i class="fas fa-mobile-alt"></i>
@@ -85,7 +100,7 @@
 						<p class="ttl-text">お客様の要望を丁寧にヒヤリングし、ご希望に沿ったランディングページを制作いたします。多くを占めるmobileからのアクセス用のレスポンシブデザインにも対応いたします。また、SEO対策も万全です。</p>
 					</div>
 
-					<div class="ttl">
+					<div class="ttl col-4_xs-12">
 						<h3>コーディング</h3>
 						<div class="icon">
 							<i class="fas fa-keyboard"></i>
@@ -94,7 +109,7 @@
 						お預かりしたXD・Photoshopなどのデザインデータをもとに、スマートフォンサイト、ワードプレスを使用した更新性の高いサイト、Javascriptを使用した動きのあるサイトなど、様々なサイトのコーディングを行っております。</p>
 					</div>
 
-					<div class="ttl">
+					<div class="ttl col-4_xs-12">
 						<h3>WordPress</h3>
 						<div class="icon">
 							<i class="fab fa-wordpress-simple"></i>
@@ -104,7 +119,7 @@
 					</div>
 				</section>
 
-				<section class="section-works">
+				<section class="section-works grid">
 				<div class="col-12_xs-12" id="works">
 					<h3 class="section-title">WORKS.</h3>
 				</div>
@@ -126,9 +141,9 @@
 				</div>
 				</section>
 
-				<section class="section-contact">
+				<section class="section-contact  grid">
 					<div class="col-12_xs-12" id="contact">
-							<h3 class="section-title" >CONTACT</h3>
+						<h3 class="section-title" >CONTACT</h3>
 					</div>
 					<div class="col-12_xs-12">
 						<script src="https://sdk.form.run/js/v2/embed.js"></script>
@@ -137,12 +152,13 @@
 					</div>
 				</section>
 
-			<div class="twi">
-				<a href="#top"><i class="twi-icon fab fa-twitter-square fa-3x"></i></a>
-			</div>
-			<div class="arrow">
-				<a href="#top"><i class="arrow-icon far fa-caret-square-up fa-3x"></i></a>
-			</div>
+				<div class="twi">
+					<a href="#top"><i class="twi-icon fab fa-twitter-square fa-3x"></i></a>
+				</div>
+				<div class="arrow">
+					<a href="#top"><i class="arrow-icon far fa-caret-square-up fa-3x"></i></a>
+				</div>
+			<!-- </div> -->
 		</div>
 	</main>
 	<footer class="footer col-12_xs-12">
