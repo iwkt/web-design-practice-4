@@ -33,6 +33,10 @@ div[class*="col"] {
   padding: 0;
 }
 
+section .ttl {
+  margin-bottom: 3rem;
+}
+
 p {
   line-height: 1.5rem;
   font-weight: 400;
