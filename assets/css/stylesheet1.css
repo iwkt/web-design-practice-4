@@ -245,9 +245,10 @@ a:hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: auto;
+  width: 90%;
   word-break: keep-all;
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 .ttl {
