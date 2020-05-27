@@ -53,14 +53,15 @@ p {
 .about-me img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 30vw;
+  width: 90%;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   padding: 0;
-  max-width: 200px;
+  max-width: 160px;
 }
 
 .about-me-profile p {
+  font-size: 1.1rem;
   margin-bottom: 0.7rem;
 }
 
@@ -276,7 +277,11 @@ a:hover {
   color: #424242;
 }
 
-@media (min-width: 36rem) {
+.works_content {
+  text-align: center;
+}
+
+@media (min-width: 80rem) {
   .about-me {
     text-align: left;
   }
@@ -305,12 +310,6 @@ a:hover {
   }
   .active {
     display: block;
-  }
-}
-
-@media (min-width: 64rem) {
-  .works_content {
-    text-align: center;
   }
 }
 
