@@ -176,10 +176,6 @@ a:hover {
   border-right: 1px solid #d9d9d9;
 }
 
-.nav-pc {
-  display: none;
-}
-
 .main-container {
   margin-left: 1.2rem;
   margin-right: 1.2rem;
@@ -281,13 +277,7 @@ a:hover {
   text-align: center;
 }
 
-@media (min-width: 80rem) {
-  .about-me {
-    text-align: left;
-  }
-  .logo-img img {
-    margin: 4rem 2rem 0;
-  }
+@media (min-width: 36rem) {
   .nav {
     display: none;
   }
@@ -295,21 +285,34 @@ a:hover {
     display: block;
     margin-right: 2rem;
   }
-  .nav-list a {
-    color: inherit;
-    padding-right: 30px;
+  .nav-pc a {
+    color: #505050;
+    padding-right: 2rem;
+    text-decoration: none;
   }
-  .nav-list a:hover {
+  .nav-pc a:hover {
     color: teal;
   }
-  .ttl {
-    padding: 0 8px 16px;
-  }
+}
+
+@media (min-width: 48rem) {
   .slide {
     display: none;
   }
   .active {
     display: block;
+  }
+}
+
+@media (min-width: 80rem) {
+  .about-me {
+    text-align: left;
+  }
+  .logo-img img {
+    margin: 4rem 2rem 0;
+  }
+  .ttl {
+    padding: 0 8px 16px;
   }
 }
 
